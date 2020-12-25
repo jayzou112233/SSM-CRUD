@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bookcrud:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>bookcrud</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="bookcrud-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="bookcrud:war exploded" />
+    </root>
+  </artifact>
+</component>
