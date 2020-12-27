@@ -85,7 +85,9 @@ public class Books {
     }
 
     public void setImgPath(String imgPath) {
-        this.imgPath = imgPath == null ? null : imgPath.trim();
+
+        if(imgPath!=null&&!"".equals(imgPath))
+            this.imgPath = imgPath;
     }
 
     @Override
