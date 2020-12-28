@@ -1,7 +1,3 @@
-# SSM-CRUD
-尚硅谷雷神，ssm整合crud实操
-
-
 
 
 # SSM整合CRUD项目
@@ -51,38 +47,38 @@
 
 在==创建项目之前设置==，不然maven创建后会先从默认仓库重新下载依赖包。
 
-* ![image-20201220205549271](C:\Users\Lx_重剑无锋\AppData\Roaming\Typora\typora-user-images\image-20201220205549271.png)
+* ![image-20201220205549271](https://gitee.com/jayzou11223/cloud-image/raw/master/img/image-20201220205549271.png)
 
   
 
-  ![image-20201220205304344](C:\Users\Lx_重剑无锋\AppData\Roaming\Typora\typora-user-images\image-20201220205304344.png)
+  ![image-20201220205304344](https://gitee.com/jayzou11223/cloud-image/raw/master/img/image-20201220205304344.png)
 
 ### （3）选择新建工程
 
 选择maven，==不勾crate  from archetype==，看个人习惯，又看到教程这块，说要勾上的，问题不大。
 
 
-![image-20201220204823711](C:\Users\Lx_重剑无锋\AppData\Roaming\Typora\typora-user-images\image-20201220204823711.png)
+![image-20201220204823711](https://gitee.com/jayzou11223/cloud-image/raw/master/img/image-20201220204823711.png)
 
 （4）项目设置
 
-  ![image-20201220205027738](C:\Users\Lx_重剑无锋\AppData\Roaming\Typora\typora-user-images\image-20201220205027738.png)
+  ![image-20201220205027738](https://gitee.com/jayzou11223/cloud-image/raw/master/img/image-20201220205027738.png)
 
   
 
 （5）项目配置的说明（参考尚硅谷的maven教程）
 
-  ![image-20201220205129832](C:\Users\Lx_重剑无锋\AppData\Roaming\Typora\typora-user-images\image-20201220205129832.png)
+  ![image-20201220205129832](https://gitee.com/jayzou11223/cloud-image/raw/master/img/image-20201220205129832.png)
 
 ## 2. 创建web项目
 
 ### （1）右键模块，Add Framework Support 
 
-![image-20201221170420750](C:\Users\Lx_重剑无锋\AppData\Roaming\Typora\typora-user-images\image-20201221170420750.png)
+![image-20201221170420750](https://gitee.com/jayzou11223/cloud-image/raw/master/img/image-20201221170420750.png)
 
 ### （2）添加web模块，
 
-![image-20201221170640683](C:\Users\Lx_重剑无锋\AppData\Roaming\Typora\typora-user-images\image-20201221170640683.png)
+![image-20201221170640683](https://gitee.com/jayzou11223/cloud-image/raw/master/img/image-20201221170640683.png)
 
 
 
@@ -100,7 +96,7 @@
 
 * 如果出现导入依赖时，报红，没有自动导入，例如
 
-  ![image-20201220212407104](C:\Users\Lx_重剑无锋\AppData\Roaming\Typora\typora-user-images\image-20201220212407104.png)
+  ![image-20201220212407104](https://gitee.com/jayzou11223/cloud-image/raw/master/img/image-20201220212407104.png)
 
   solution：右侧maven窗口，刷新
 
